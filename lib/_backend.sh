@@ -38,7 +38,7 @@ sleep 2
 #######################################
 backend_set_env() {
   print_banner
-  printf "${WHITE} 💻 Configurando variáveis de ambiente (backend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Configurando variaveis de ambiente (backend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -98,7 +98,7 @@ EOF
 #######################################
 backend_node_dependencies() {
   print_banner
-  printf "${WHITE} 💻 Instalando dependências do backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Instalando dependencias do backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -118,7 +118,7 @@ EOF
 #######################################
 backend_node_build() {
   print_banner
-  printf "${WHITE} 💻 Compilando o código do backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Compilando o codigo do backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2

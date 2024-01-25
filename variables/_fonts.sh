@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Variables to be used for font styling.
+# Variáveis a serem usadas para estilo de fonte.
 
 # color
 readonly RED="\033[1;31m"

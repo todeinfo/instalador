@@ -9,7 +9,7 @@
 #######################################
 system_create_user() {
   print_banner
-  printf "${WHITE} 💻 Agora, vamos criar o usuário para a instancia...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Agora, vamos criar o usuaio para a instancia...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -29,7 +29,7 @@ EOF
 #######################################
 system_git_clone() {
   print_banner
-  printf "${WHITE} 💻 Fazendo download do código Canal Vem Fazer...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Fazendo download do codigo...${GRAY_LIGHT}"
   printf "\n\n"
 
 
@@ -49,7 +49,7 @@ EOF
 #######################################
 system_update() {
   print_banner
-  printf "${WHITE} 💻 Vamos atualizar o sistema Canal Vem Fazer...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos atualizar o sistema...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -71,7 +71,7 @@ EOF
 #######################################
 deletar_tudo() {
   print_banner
-  printf "${WHITE} 💻 Vamos deletar o Canal Vem Fazer...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos deletar o sistema...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -102,7 +102,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} 💻 Remoção da Instancia/Empresa ${empresa_delete} realizado com sucesso ...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Remocao da Instancia/Empresa ${empresa_delete} realizado com sucesso ...${GRAY_LIGHT}"
   printf "\n\n"
 
 
@@ -117,7 +117,7 @@ EOF
 #######################################
 configurar_bloqueio() {
   print_banner
-  printf "${WHITE} 💻 Vamos bloquear o Canal Vem Fazer...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos bloquear...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -144,7 +144,7 @@ EOF
 #######################################
 configurar_desbloqueio() {
   print_banner
-  printf "${WHITE} 💻 Vamos Desbloquear o Canal Vem Fazer...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos Desbloquear...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -170,7 +170,7 @@ EOF
 #######################################
 configurar_dominio() {
   print_banner
-  printf "${WHITE} 💻 Vamos Alterar os Dominios do Canal Vem Fazer...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos Alterar os Dominios...${GRAY_LIGHT}"
   printf "\n\n"
 
 sleep 2
@@ -262,7 +262,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} 💻 Alteração de dominio da Instancia/Empresa ${empresa_dominio} realizado com sucesso ...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Alteracao de dominio da Instancia/Empresa ${empresa_dominio} realizado com sucesso ...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2

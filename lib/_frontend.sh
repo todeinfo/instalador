@@ -9,7 +9,7 @@
 #######################################
 frontend_node_dependencies() {
   print_banner
-  printf "${WHITE} 💻 Instalando dependências do frontend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Instalando dependencia do frontend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -29,7 +29,7 @@ EOF
 #######################################
 frontend_node_build() {
   print_banner
-  printf "${WHITE} 💻 Compilando o código do frontend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Compilando o codigo do frontend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -77,7 +77,7 @@ EOF
 #######################################
 frontend_set_env() {
   print_banner
-  printf "${WHITE} 💻 Configurando variáveis de ambiente (frontend)...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Configurando variaveis de ambiente (frontend)...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2

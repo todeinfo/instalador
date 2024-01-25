@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Variables to be used for background styling.
+# Variáveis a serem usadas para estilo de plano de fundo.
 
 # color
 readonly BG_BROWN="\e[0;43m"

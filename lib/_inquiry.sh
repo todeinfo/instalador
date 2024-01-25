@@ -3,7 +3,7 @@
 get_mysql_root_password() {
   
   print_banner
-  printf "${WHITE} 💻 Insira senha para o usuario Deploy e Banco de Dados (Não utilizar caracteres especiais):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira senha para o usuario Deploy e Banco de Dados (Nao utilizar caracteres especiais):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " mysql_root_password
 }
@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do seu Canal Vem Fazer que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link do GITHUB :${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -19,7 +19,7 @@ get_link_git() {
 get_instancia_add() {
   
   print_banner
-  printf "${WHITE} 💻 Informe um nome para a Instancia/Empresa que será instalada (Não utilizar espaços ou caracteres especiais, Utilizar Letras minusculas; ):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Informe um nome para a Instancia/Empresa que sera instalada (Não utilizar espacos ou caracteres especiais, Utilizar Letras minusculas; ):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " instancia_add
 }
@@ -27,7 +27,7 @@ get_instancia_add() {
 get_max_whats() {
   
   print_banner
-  printf "${WHITE} 💻 Informe a Qtde de Conexões/Whats que a ${instancia_add} poderá cadastrar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Informe a quantidade de Conexoes/Whats que a ${instancia_add} podera� cadastrar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " max_whats
 }
@@ -35,7 +35,7 @@ get_max_whats() {
 get_max_user() {
   
   print_banner
-  printf "${WHITE} 💻 Informe a Qtde de Usuarios/Atendentes que a ${instancia_add} poderá cadastrar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Informe a quantidade de Usuarios/Atendentes que a ${instancia_add} podera� cadastrar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " max_user
 }
@@ -43,7 +43,7 @@ get_max_user() {
 get_frontend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio do FRONTEND/PAINEL para a ${instancia_add}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o dominio do FRONTEND/PAINEL para a ${instancia_add}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " frontend_url
 }
@@ -51,7 +51,7 @@ get_frontend_url() {
 get_backend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio do BACKEND/API para a ${instancia_add}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o domiminio do BACKEND/API para a ${instancia_add}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " backend_url
 }
@@ -84,7 +84,7 @@ get_redis_port() {
 get_empresa_delete() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que será Deletada (Digite o mesmo nome de quando instalou):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que sera Deletada (Digite o mesmo nome de quando instalou):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " empresa_delete
 }
@@ -116,7 +116,7 @@ get_empresa_desbloquear() {
 get_empresa_dominio() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que deseja Alterar os Dominios (Atenção para alterar os dominios precisa digitar os 2, mesmo que vá alterar apenas 1):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o nome da Instancia/Empresa que deseja Alterar os Dominios (Atencao para alterar os dominios precisa digitar os 2, mesmo que va� alterar apenas 1):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " empresa_dominio
 }
@@ -124,7 +124,7 @@ get_empresa_dominio() {
 get_alter_frontend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o NOVO domínio do FRONTEND/PAINEL para a ${empresa_dominio}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o NOVO dominio do FRONTEND/PAINEL para a ${empresa_dominio}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " alter_frontend_url
 }
@@ -132,7 +132,7 @@ get_alter_frontend_url() {
 get_alter_backend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o NOVO domínio do BACKEND/API para a ${empresa_dominio}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite o NOVO dominio do BACKEND/API para a ${empresa_dominio}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " alter_backend_url
 }
@@ -140,7 +140,7 @@ get_alter_backend_url() {
 get_alter_frontend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do FRONTEND da Instancia/Empresa ${empresa_dominio}; A porta deve ser o mesma informada durante a instalação ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite a porta do FRONTEND da Instancia/Empresa ${empresa_dominio}; A porta deve ser o mesma informada durante a instalacao ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " alter_frontend_port
 }
@@ -149,7 +149,7 @@ get_alter_frontend_port() {
 get_alter_backend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do BACKEND da Instancia/Empresa ${empresa_dominio}; A porta deve ser o mesma informada durante a instalação ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite a porta do BACKEND da Instancia/Empresa ${empresa_dominio}; A porta deve ser o mesma informada durante a instalacao ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " alter_backend_port
 }
@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador Canal Vem Fazer, selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador William Almeida, selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar Canal Vem Fazer\n"
-  printf "   [1] Atualizar Canal Vem FazerP\n"
-  printf "   [2] Deletar Canal Vem Fazer\n"
-  printf "   [3] Bloquear Canal Vem FazerP\n"
-  printf "   [4] Desbloquear Canal Vem Fazer\n"
-  printf "   [5] Alter. dominio Canal Vem Fazer\n"
+  printf "   [0] Instalar\n"
+  printf "   [1] Atualizar\n"
+  printf "   [2] Deletar\n"
+  printf "   [3] Bloquear\n"
+  printf "   [4] Desbloquear\n"
+  printf "   [5] Alterar dominio\n"
   printf "\n"
   read -p "> " option
 

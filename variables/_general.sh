@@ -1,5 +1,5 @@
 #!/bin/bash
 #
-# Special variables to be used for general purposes.
+# Variáveis especiais a serem usadas para fins gerais.
 
 readonly NC="\033[0m" # reset colors
